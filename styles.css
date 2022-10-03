@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado{
+    background-color: rgb(78, 71, 71);
+}
+
+.logo{
+    text-align: end;
+}
+
+.titulo-conf{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-link{
+    color: white;
+    padding: 8px 10px;
+}
+
+.ticket{
+    color: green;
+    font-weight: bolder;
+}
+
+.portada{
+    background-image: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)),url(./IMAGENES/ba1.jpg);
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.texto-portada{
+    color: white;
+    text-align: end;
+    font-size: 14px;
+    padding: 350px 100px 0 400px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.titulo-oradores p{
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.lista-oradores{
+    margin: 10px 100px;
+
+}
+
+.lugarYfecha{
+    background-color: rgb(78, 71, 71);
+    margin: 20px 0;
+}
+
+.texto-lugarYfecha{
+    color: white;
+    font-size: 14px;
+}
+
+.titulo-form p{
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+
+p.orador{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.intro-form p{
+    text-align: center;
+}
+
+form{
+    margin: 10px 350px 10px 350px;
+}
+
+form p{
+    font-size: 14px;
+}
+
+footer{
+    background-color: rgb(72, 72, 148);
+    margin: 10px 0;
+}
